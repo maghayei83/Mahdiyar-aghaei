@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mahdiyar_aghaei_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("نمره وارد شود");
+            int num = Convert.ToInt32(Console.ReadLine());
+            switch(num)
+            {
+                case 20:
+                    Console.WriteLine("Rank A");
+                    break;
+                case 19:
+                    Console.WriteLine("Rank A");
+                    break;
+                case 18:
+                    Console.WriteLine("Rank A");
+                    break;
+                case 17:
+                    Console.WriteLine("Rank A");
+                    break;
+                case 16:
+                    Console.WriteLine("Rank B");
+                    break;
+                case 15:
+                    Console.WriteLine("Rank B");
+                    break;
+                case 14:
+                    Console.WriteLine("Rank B");
+                    break;
+                case 13:
+                    Console.WriteLine("Rank B");
+                    break;
+                case 12:
+                    Console.WriteLine("Rank C");
+                    break;
+                case 11:
+                    Console.WriteLine("Rank C");
+                    break;
+                case 10:
+                    Console.WriteLine("Rank C");
+                    break;
+                case 9:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 8:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 7:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 6:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 5:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 4:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 3:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 2:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 1:
+                    Console.WriteLine("Rank D");
+                    break;
+                case 0:
+                    Console.WriteLine("Rank D");
+                    break;
+
+            }
+            }
+        }
+    }
